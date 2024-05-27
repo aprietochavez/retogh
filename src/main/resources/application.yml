@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: reto
+  profiles:
+    active: ${PROFILE:local}
